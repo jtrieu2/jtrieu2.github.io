@@ -1,1 +1,72 @@
-Hello world
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 18pt;
+  font-family: 'Lora', serif;
+
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1521289934514-8634119fa6d8?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&dl=sammy-schuckert-598630-unsplash.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely. Cover keeps the aspect ratio when resizing window. */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align:center;
+}
+.col-sm-8 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.row {
+  height: 100vh;
+}
+#name-tag {
+  color: black;
+  size: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.4;
+}
+.icons {
+  margin-bottom: 12px;
+  list-style: none;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+</style>
+<body>
+<div class="bg">
+  <div class="container-fluid">
+  <div class="row align-items-center">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-8 align-middle">
+      <h1 id="name-tag">Hello World</h1>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
